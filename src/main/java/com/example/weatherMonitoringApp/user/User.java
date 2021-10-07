@@ -19,6 +19,7 @@ public class User {
 	
 	private String home_place;
 	private String favourite_place;
+	
 	public long getId() {
 		return id;
 	}
