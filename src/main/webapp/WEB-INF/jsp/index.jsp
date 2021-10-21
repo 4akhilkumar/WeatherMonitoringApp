@@ -10,13 +10,13 @@
     <title>καιρός | Weather Monitoring Application</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-<body>
+<body onload="fetchGPSCoOrdinatesafter3seconds()">
     <main>
         <header>
             <div class="kairos-logo">
                 καιρός
             </div>
-            <div class="login">
+            <div class="login" onclick="document.location='/login'">
                 <button class="btn login-button">Login</button>
             </div>
         </header>
@@ -30,6 +30,7 @@
                 </div>
                 <div class="current-place-weather-short-info">
                 	<h3>Message: ${message}</h3>
+                	<h4 id="demo"></h4>
                     <h3>Vijayawada, India 24 &#8451; </h3>
                     <!-- <h3>Vijayawada, India 24 &#8457; </h3> -->
                 </div>
@@ -229,5 +230,6 @@
             </div>
         </footer>
     </main>
+    <script src="./javascript/main.js"></script>
 </body>
 </html>
