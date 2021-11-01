@@ -284,6 +284,11 @@ ol {
     text-align: center;
 }
 
+.card_image_icon{
+	font-size: 4rem;
+	padding: 1rem 0;
+}
+
 img {
     flex: 1;
     height: 100%;

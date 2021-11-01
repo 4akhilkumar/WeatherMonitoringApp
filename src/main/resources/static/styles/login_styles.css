@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 
 :root{
   --first-color: #536dfe;
@@ -51,7 +52,7 @@ img{
   height: 80vh;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 4.5rem;
 }
 
 .login__content{
@@ -313,4 +314,25 @@ span.ripple {
       transform: scale(4);
       opacity: 0;
   }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.75rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 1px 0 rgba(22, 8, 43, 0.1);
+    background-color: var(--body-color);
+    z-index: 9999;
+}
+
+.kairos-logo {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    box-shadow: inset 0px -2px 0px 0px #42a5f5;
 }
